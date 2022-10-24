@@ -7,7 +7,7 @@ import os
 os.getcwd()
 print(os.getcwd())
 st.title('California Housing Data(1990) by Hairong Zheng')
-df = pd.read_csv('C:/Users/ASUS/misy/st/housing.csv')
+df = pd.read_csv('housing.csv')
 
 price_filter = st.slider('Median House Price:', 0, 500001, 200000)
 
