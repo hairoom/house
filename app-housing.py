@@ -3,9 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 plt.style.use('seaborn-v0_8')
 
+'''
 import os
 os.getcwd()
 print(os.getcwd())
+'''
 st.title('California Housing Data(1990) by Hairong Zheng')
 df = pd.read_csv('housing.csv')
 
