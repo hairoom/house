@@ -22,7 +22,7 @@ capital_filter = st.sidebar.multiselect(
 income_filter = st.sidebar.radio('Choose income level', 
                           ('Low','Median','High'))
 
-df=df[df.median_house_value<= price_filter]
+df=df[df.median_house_value >= price_filter]
 
 if  income_filter=='Low':
       df=df[df.median_income<=2.5]
